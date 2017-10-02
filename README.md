@@ -137,7 +137,7 @@ putLText :: MonadIO m => TL.Text -> m ()
 Generally speaking writing manual instances of Show is a [Haskell antipattern](
 http://www.stephendiehl.com/posts/strings.html) because it produces
 law-violating instances of Show. You probably want to use a [pretty
-printer](https://hackage.haskell.org/package/wl-pprint-text) library for custom
+printer](https://hackage.haskell.org/package/prettyprinter) library for custom
 printing.
 
 If backwards compatibility is needed then the base library can be imported
